@@ -1,0 +1,120 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	font-family:"Open Sans";
+}
+nav.hidden{
+	transform: translate3d(0, -100%, 0);
+}
+.cool h1 {
+	font-size:5.5em;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight:900;
+	line-height:80px;
+	margin-bottom:40px;
+}
+.bg-sd{
+	background-color: rgb(30, 30, 30);
+}
+.laptop img{
+	position: sticky;
+}
+/* Button design */
+.btn-primary{
+	background: #2357b8;
+    background: -webkit-linear-gradient(legacy-direction(to right), #1fa4cc 0%, #227bee 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#1fa4cc), to(#227bee));
+    background: -webkit-linear-gradient(left, #1fa4cc 0%, #227bee 100%);
+    background: -o-linear-gradient(left, #1fa4cc 0%, #227bee 100%);
+    background: linear-gradient(to right, #1fa4cc 0%, #227bee 100%);
+}
+
+.btn-primary:hover{
+	background: #0126f8;
+    background: -webkit-linear-gradient(legacy-direction(to right), #0400fa 0%, #0c73b8 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#0400fa), to(#0c73b8));
+    background: -webkit-linear-gradient(left, #0400fa 0%, #0c73b8 100%);
+    background: -o-linear-gradient(left, #0400fa 0%, #0c73b8 100%);
+    background: linear-gradient(to right, #0400fa 0%, #0c73b8 100%);
+}
+
+/**** 
+Quality our profession 
+****/
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.service-5 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.service-5 a{
+	text-decoration: none;
+}
+
+.service-5 .linking{
+	color: #3e4555;
+}
+
+.service-5 .linking:hover{
+	color: #316ce8;
+}
+
+.service-5 .font-weight-medium {
+	font-weight: 500;
+}
+
+.service-5 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+}
+
+.service-5 .card.card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.service-5 .wrap-service5-box .card-body {
+    padding: 20px;
+}
+
+.service-5 .wrap-service5-box .text-success-gradiant {
+	background: #2357b8;
+    background: -webkit-linear-gradient(legacy-direction(to right), #1fa4cc 0%, #227bee 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#1fa4cc), to(#227bee));
+    background: -webkit-linear-gradient(left, #1fa4cc 0%, #227bee 100%);
+    background: -o-linear-gradient(left, #1fa4cc 0%, #227bee 100%);
+    background: linear-gradient(to right, #1fa4cc 0%, #227bee 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.service-5 .wrap-service5-box .icon-size{
+	font-size: 45px;
+}
+
+.service-5 .btn-success-gradiant {
+	background: #2357b8;
+    background: -webkit-linear-gradient(legacy-direction(to right), #1fa4cc 0%, #227bee 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#1fa4cc), to(#227bee));
+    background: -webkit-linear-gradient(left, #1fa4cc 0%, #227bee 100%);
+    background: -o-linear-gradient(left, #1fa4cc 0%, #227bee 100%);
+    background: linear-gradient(to right, #1fa4cc 0%, #227bee 100%);
+}
+
+.service-5 .btn-success-gradiant:hover {
+	  background: #1dc8cc;
+    background: -webkit-linear-gradient(legacy-direction(to right), #1dc8cc 0%, #2cdd9b 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#1dc8cc), to(#2cdd9b));
+    background: -webkit-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
+    background: -o-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
+    background: linear-gradient(to right, #1dc8cc 0%, #2cdd9b 100%);
+}
+
+.service-5 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
